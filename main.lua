@@ -147,68 +147,164 @@ local twelvetbells = bug(num1*12000)			-- 12000
 -- These are listed in alphabetical order
 -- A
 if bug == bugs['Agrias Butterfly'] then
-	print(num1, ' Agrias Butterfly is ', threetbells)
+	print(num1, ' Agrias Butterfly is ', threetbells, ' bells!')
 elseif bug == bugs['Ant'] then
-	print(num1, ' Ants is ', eightybells)
+	print(num1, ' Ants is ', eightybells, ' bells!')
 elseif bug == bugs['Atlas Moth'] then
-	print(num1, ' Atlas Moth is ', threetbells)
+	print(num1, ' Atlas Moth is ', threetbells, ' bells!')
 
 -- B
 elseif bug == bugs['Bagworm'] then
-	print(num1, ' Bagworm is ', sixhbells)
+	print(num1, ' Bagworm is ', sixhbells, ' bells!')
 elseif bug == bugs['Banded Dragonfly'] then
-	print(num1, ' Banded Dragonfly is ', fourtfivehbells)
+	print(num1, ' Banded Dragonfly is ', fourtfivehbells, ' bells!')
 elseif bug == bugs['Bell Cricket'] then
-	print(num1, ' Bell Cricket is ', fourhtbells)
+	print(num1, ' Bell Cricket is ', fourhtbells, ' bells!')
 elseif bug == bugs['Blue Weevil Beetle'] then
-	print(num1, ' Blue Weevil Beetle is ', eighthbells)
+	print(num1, ' Blue Weevil Beetle is ', eighthbells, ' bells!')
 elseif bug == bugs['Brown Cicada'] then
-	print(num1, ' Brown Cicada is ', twohfbells)
+	print(num1, ' Brown Cicada is ', twohfbells, ' bells!')
 
 -- C
 elseif bug == bugs['Centipede'] then
-	print(num1, ' Centipede is ', threehbells)
+	print(num1, ' Centipede is ', threehbells, ' bells!')
 elseif bug == bugs['Cicada Shell'] then
-	print(num1, ' Cicada Shell is ', tenbells)
+	print(num1, ' Cicada Shell is ', tenbells, ' bells!')
 elseif bug == bugs['Citrus Long-Horned Beetle'] then
-	print(num1, ' Citrus Long-Horned Beetle is ', threehfbells)
+	print(num1, ' Citrus Long-Horned Beetle is ', threehfbells, ' bells!')
 elseif bug == bugs['Common Bluebottle'] then
-	print(num1, ' Common Bluebottle is ', threehbells)
+	print(num1, ' Common Bluebottle is ', threehbells, ' bells!')
 elseif bug == bugs['Common Butterfly'] then
-	print(num1, ' Common Butterfly is ', onehsbells)
+	print(num1, ' Common Butterfly is ', onehsbells, ' bells!')
 elseif bug == bugs['Cricket'] then
-	print(num1, ' Cricket is ', onehthirtybells)
+	print(num1, ' Cricket is ', onehthirtybells, ' bells!')
 elseif bug == bugs['Cyclommatus Stag'] then
-	print(num1, ' Cyclommatus Stag is ', eighttbells)
+	print(num1, ' Cyclommatus Stag is ', eighttbells, ' bells!')
 
 -- D
 elseif bug == bugs['Damselfly'] then
-	print(num1, ' Damselfly is ', fivehbells)
+	print(num1, ' Damselfly is ', fivehbells, ' bells!')
 elseif bug == bugs['Darner Dragonfly'] then
-	print(num1, ' Darner Dragonfly is ', twohtbells)
+	print(num1, ' Darner Dragonfly is ', twohtbells, ' bells!')
 elseif bug == bugs['Diving Beetle'] then
-	print(num1, ' Diving Beetle is ', eighthbells)
+	print(num1, ' Diving Beetle is ', eighthbells, ' bells!')
 elseif bug == bugs['Drone Beetle'] then
-	print(num1, ' Drone Beetle is ', twohbells)
+	print(num1, ' Drone Beetle is ', twohbells, ' bells!')
 elseif big == bugs['Dung Beetle'] then
-	print(num1, ' Dung Beetle is ', threetbells)
+	print(num1, ' Dung Beetle is ', threetbells, ' bells!')
 
 -- E
 elseif bug == bugs['Earth-Boring Dung Beetle'] then
-	print(num1, ' Earth-Boring Dung Beetle is ', threehbells)
+	print(num1, ' Earth-Boring Dung Beetle is ', threehbells, ' bells!')
 elseif bug == bugs['Emperor Butterfly'] then
-	print(num1, ' Emperor Butterfly is ', fourtbells)
+	print(num1, ' Emperor Butterfly is ', fourtbells, ' bells!')
 elseif bug == bugs['Evening Cicada'] then
-	print(num1, ' Evening Cicada is ', fivehfbells)
+	print(num1, ' Evening Cicada is ', fivehfbells, ' bells!')
 
 -- F
 elseif bug == bugs['Firefly'] then
-	print(num1, ' Firefly is ', threehbells)
+	print(num1, ' Firefly is ', threehbells, ' bells!')
 elseif bug == bugs['Flea'] then
-	print(num1, ' Flea is ', seventybells)
+	print(num1, ' Flea is ', seventybells, ' bells!')
 elseif bug == bugs['Fly'] then
-	print(num1, ' Fly is ', sixtybells)
+	print(num1, ' Fly is ', sixtybells, ' bells!')
+
+-- G
+elseif bug == bugs['Giant Cicada'] then
+	print(num1, ' Giant Cicada is ', fivehbells, ' bells!')
+elseif bug == bugs['Giant Stag'] then
+	print(num1, ' Giant Stag is ', tentbells, ' bells!')
+elseif bug == bugs['Giant Water Bug'] then
+	print(num1, ' Giant Water Bug is ', twotbells, ' bells!')
+elseif bug == bugs['Giraffe Stag'] then
+	print(num1, ' Giraffe Stag is ', twelvetbells, ' bells!')
+elseif bug == bugs['Golden Stag'] then
+	print(num1, ' Golden Stag is ', twelvebells, ' bells!')
+elseif bug == bugs['Goliath Beetle'] then
+	print(num1, ' Goliath Beetle is ', eighttbells, ' bells!')
+elseif bug == bugs['Grasshopper'] then
+	print(num1, ' Grasshopper is ', onehsbells, ' bells!')
+elseif bug == bugs['Great Purple Emperor'] then
+	print(num1, ' Great Purple Emperor is ', threetbells, ' bells!')
+
+-- H
+elseif bug == bugs['Hermit Crab'] then
+	print(num1, ' Hermit Crab is ', onetbells, ' bells!')
+elseif bug == bugs['Honeybee'] then
+	print(num1, ' Honeybee is ', twohbells, ' bells!')
+elseif bug == bugs['Horned Atlas'] then
+	print(num1, ' Horned Atlas is ', eighttbells, ' bells!')
+elseif bug == bugs['Horned Dynastid'] then
+	print(num1, ' Horned Dynastid is ', onetthreehfbells, ' bells!')
+elseif bug == bugs['Horned Elephant'] then
+	print(num1, ' Horned Elephant is ', eighttbells, ' bells!')
+elseif bug == bugs['Horned Hercules'] then
+	print(num1, ' Horned Hercules is ', twelvetbells, ' bells!')
+
+-- No bugs that start with I
+-- J
+elseif bug == bugs['Jewel Beetle'] then
+	print(num1, ' Jewel Beetle is ', twotfourhbells, ' bells!')
+
+-- No bugs that start with K
+-- L
+elseif bug == bugs['Ladybug'] then
+	print(num1, ' Ladybug is ', twohbells, ' bells!')
+elseif bug == bugs['Long Locust'] then
+	print(num1, ' Long Locust is ', twohbells, ' bells!')
+
+-- M
+elseif bug == bugs['Madagascan Sunset Moth'] then
+	print(num1, ' Madagascan Sunset Moth is ', twotfivehbells, ' bells!')
+elseif bug == bugs['Man-Faced Stink Bug'] then
+	print(num1, ' Man-Faced Stink Bug is ', onetbells, ' bells!')
+elseif bug == bugs['Mantis'] then
+	print(num1, ' Mantis is ', fourhtbells, ' bells!')
+elseif bug == bugs['Migratory Locust'] then
+	print(num1, ' Migratory Locust is ', sixhbells, ' bells!')
+elseif bug == bugs['Miyama Stag'] then
+	print(num1, ' Miyama Stag is ', onetbells, ' bells!')
+elseif bug == bugs['Mole Cricket'] then
+	print(num1, ' Mole Cricket is ', fivehbells, ' bells!')
+elseif bug == bugs['Monarch Butterfly'] then
+	print(num1, ' Monarch Butterfly is ', onehfbells, ' bells!')
+elseif bug == bugs['Mosquito'] then
+	print(num1, ' Mosquito is ', onehthirtybells, ' bells!')
+elseif bug == bugs['Moth'] then
+	print(num1, ' Moth is ', onehthirtybells, ' bells!')
 end
+
+-- No bugs that start with N
+-- O
+
+
+-- P
+
+
+-- Q
+
+
+-- R
+
+
+-- S
+
+
+-- T
+
+
+-- No bugs that start with U
+-- V
+
+
+-- W
+
+
+-- No bugs that start with X
+-- Y
+
+
+-- No bugs that start with Z
 
 print('Press ENTER to quit.')
 io.read()
