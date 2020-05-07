@@ -10,6 +10,11 @@ Original Author: Kiiwii
 Made on: May 6th, 2020
 --]]
 
+local bof={
+	['bugs'] = function(x) return x end,
+	['fish'] = function(x) return x end
+}
+
 local bugs={
 	['Agrias Butterfly'] = function(x) return x end,
 	['Ant'] = function(x) return x end,
@@ -93,21 +98,111 @@ local bugs={
 	['Yellow Butterfly'] = function(x) return x end
 }
 
+local fish={
+	['Anchovy'] = function(x) return x end,
+	['Angelfish'] = function(x) return x end,
+	['Arapairma'] = function(x) return x end,
+	['Arowana'] = function(x) return x end,
+	['Barred Knifejaw'] = function(x) return x end,
+	['Barreleye'] = function(x) return x end,
+	['Betta'] = function(x) return x end,
+	['Bitterling'] = function(x) return x end,
+	['Black Bass'] = function(x) return x end,
+	['Blowfish'] = function(x) return x end,
+	['Blue Marlin'] = function(x) return x end,
+	['Bluegill'] = function(x) return x end,
+	['Butterfly Fish'] = function(x) return x end,
+	['Carp'] = function(x) return x end,
+	['Catfish'] = function(x) return x end,
+	['Char'] = function(x) return x end,
+	['Cherry Salmon'] = function(x) return x end,
+	['Clown Fish'] = function(x) return x end,
+	['Coelacanth'] = function(x) return x end,
+	['Crawfish'] = function(x) return x end,
+	['Crucian Carp'] = function(x) return x end,
+	['Dab'] = function(x) return x end,
+	['Dace'] = function(x) return x end,
+	['Dorado'] = function(x) return x end,
+	['Football Fish'] = function(x) return x end,
+	['Freshwater Goby'] = function(x) return x end,
+	['Frog'] = function(x) return x end,
+	['Gar'] = function(x) return x end,
+	['Giant Snakehead'] = function(x) return x end,
+	['Giant Trevally'] = function(x) return x end,
+	['Golden Trout'] = function(x) return x end,
+	['Goldfish'] = function(x) return x end,
+	['Great White Shark'] = function(x) return x end,
+	['Guppy'] = function(x) return x end,
+	['Hammerhead Shark'] = function(x) return x end,
+	['Horse Mackerel'] = function(x) return x end,
+	['Killifish'] = function(x) return x end,
+	['King Salmon'] = function(x) return x end,
+	['Koi'] = function(x) return x end,
+	['Loach'] = function(x) return x end,
+	['Mahi-Mahi'] = function(x) return x end,
+	['Mitten Crab'] = function(x) return x end,
+	['Moray Eel'] = function(x) return x end,
+	['Napoleonfish'] = function(x) return x end,
+	['Neon Tetra'] = function(x) return x end,
+	['Nibble Fish'] = function(x) return x end,
+	['Oarfish'] = function(x) return x end,
+	['Ocean Sunfish'] = function(x) return x end,
+	['Olive Flounder'] = function(x) return x end,
+	['Pale Chub'] = function(x) return x end,
+	['Pike'] = function(x) return x end,
+	['Piranha'] = function(x) return x end,
+	['Pond Smelt'] = function(x) return x end,
+	['Pop-Eyed Goldfish'] = function(x) return x end,
+	['Pufferfish'] = function(x) return x end,
+	['Rainbowfish'] = function(x) return x end,
+	['Ranchu Goldfish'] = function(x) return x end,
+	['Ray'] = function(x) return x end,
+	['Red Snapper'] = function(x) return x end,
+	['Ribbon Eel'] = function(x) return x end,
+	['Saddled Bichir'] = function(x) return x end,
+	['Salmon'] = function(x) return x end,
+	['Saw Shark'] = function(x) return x end,
+	['Sea Bass'] = function(x) return x end,
+	['Sea Butterfly'] = function(x) return x end,
+	['Sea Horse'] = function(x) return x end,
+	['Snapping Turtle'] = function(x) return x end,
+	['Soft-Shelled Turtle'] = function(x) return x end,
+	['Squid'] = function(x) return x end,
+	['Stringfish'] = function(x) return x end,
+	['Sturgeon'] = function(x) return x end,
+	['Suckerfish'] = function(x) return x end,
+	['Surgeonfish'] = function(x) return x end,
+	['Sweetfish'] = function(x) return x end,
+	['Tadpole'] = function(x) return x end,
+	['Tilapia'] = function(x) return x end,
+	['Tuna'] = function(x) return x end,
+	['Whale Shark'] = function(x) return x end,
+	['Yellow Perch'] = function(x) return x end,
+	['Zebra Turkeyfish'] = function(x) return x end
+}
 print('Hello and welcome to AC Bell Calculator! You can calculate how many bells')
 print('You will earn buy selling a certain amount of bugs/fish!')
 print('Version 0.1')
 print()
 print()
 
--- Asks how many bugs you are selling and stores it as 'num1'
-print('How many bugs are you selling?')
+-- Asks user how many of the fish or bug they are selling.
+print('How many bugs/fish are you selling?')
 local num1 = io.read()
 
--- Asks what you are selling. User will have to type out the name exactly like
--- it is in the table above.
-print('What bug are you selling?')
-local bug = bugs[io.read()]
+-- Asks the user if they are selling fish or bugs.
+print('What are you selling? bugs or fish?')
+local bf = bof[io.read()]
 
+-- If user prompts bugs then asks what bug they are selling.
+if bf == bof.bugs then
+	print('What bug are you selling?')
+-- But if user prompts fish then asks what fish they are selling.
+elseif bf == bof.fish then
+	print('What fish are you selling?')
+end
+local bug = bugs[io.read()]
+local fishies = fish[io.read()]
 
 -- This is a very sloppy way of having this work and I don't care.
 -- It may be tedious, but if it works properly, I'll use it
