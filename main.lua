@@ -93,6 +93,12 @@ local bugs={
 	['Yellow Butterfly'] = function(x) return x end
 }
 
+print('Hello and welcome to AC Bell Calculator! You can calculate how many bells')
+print('You will earn buy selling a certain amount of bugs/fish!')
+print('Version 0.1')
+print()
+print()
+
 -- Asks how many bugs you are selling and stores it as 'num1'
 print('How many bugs are you selling?')
 local num1 = io.read()
@@ -272,37 +278,84 @@ elseif bug == bugs['Mosquito'] then
 	print(num1, ' Mosquito is ', onehthirtybells, ' bells!')
 elseif bug == bugs['Moth'] then
 	print(num1, ' Moth is ', onehthirtybells, ' bells!')
-end
 
 -- No bugs that start with N
 -- O
-
+elseif bug == bugs['Orchid Mantis'] then
+	print(num1, ' Orchid Mantis is ', twotfourhbells, ' bells!')
 
 -- P
-
+elseif bug == bugs['Paper Kite Butterfly'] then
+	print(num1, ' Paper Kite Butterfly is ', onetbells, ' bells!')
+elseif bug == bugs['Peacock Butterfly'] then
+	print(num1, ' Peacock Butterfly is ', twotfivehbells, ' bells!')
+elseif bug == bugs['Pill Bug'] then
+	print(num1, ' Pill Bug is ', twohfbells, ' bells!')
+elseif bug == bugs['Pondskater'] then
+	print(num1, ' Pondskater is ', onehthirtybells, ' bells!')
 
 -- Q
-
+elseif bug == bugs['Queen Alexandra\'s Birdwing'] then
+	print(num1, ' Queen Alexandra\'s Birdwing is ', fourtbells, ' bells!')
 
 -- R
-
+elseif bug == bugs['Rainbow Stag'] then
+	print(num1, ' Rainbow Stag is ', sixtbells, ' bells!')
+elseif bug == bugs['Rajah Brooke\'s Birdwing'] then
+	print(num1, ' Rajah Brooke\'s Birdwing is ', twotfivehbells, ' bells!')
+elseif bug == bugs['Red Dragonfly'] then
+	print(num1, ' Red Dragonfly is ', onehebells, ' bells!')
+elseif bug == bugs['Rice Grasshopper'] then
+	print(num1, ' Rice Grasshopper is ', onehsbells, ' bells!')
+elseif bug == bugs['Robust Cicada'] then
+	print(num1, ' Robust Cicada is ', threehbells, ' bells!')
+elseif bug == bugs['Rosalia Batesi Beetle'] then
+	print(num1, ' Rosalia Batesi Beetle is ', threetbells, ' bells!')
 
 -- S
-
+elseif bug == bugs['Saw Stag'] then
+	print(num1, ' Saw Stag is ', twotbells, ' bells!')
+elseif bug == bugs['Scarab Beetle'] then
+	print(num1, ' Scarab Beetle is ', tentbells, ' bells!')
+elseif bug == bugs['Scorpion'] then
+	print(num1, ' Scorpion is ', eighttbells, ' bells!')
+elseif bug == bugs['Snail'] then
+	print(num1, ' Snail is ', twohfbells, ' bells!')
+elseif bug == bugs['Spider'] then
+	print(num1, ' Spider is ', sixhbells, ' bells!')
+elseif bug == bugs['Stinkbug'] then
+	print(num1, ' Stinkbug is ', onehtwentybells, ' bells!')
 
 -- T
-
+elseif bug == bugs['Tarantula'] then
+	print(num1, ' Tarantula is ', eighttbells, ' bells!')
+elseif bug == bugs['Tiger Beetle'] then
+	print(num1, ' Tiger Beetle is ', onetfivehbells, ' bells!')
+elseif bug == bugs['Tiger Butterfly'] then
+	print(num1, ' Tiger Butterfly is ', twohfourtybells, ' bells!')
 
 -- No bugs that start with U
 -- V
-
+elseif bug == bugs['Violin Beetle'] then
+	print(num1, ' Violin Beetle is ', fourhfbells, ' bells!')
 
 -- W
-
+elseif bug == bugs['Walker Cicada'] then
+	print(num1, ' Walker Cicada is ', fourhbells, ' bells!')
+elseif bug == bugs['Walking Leaf'] then
+	print(num1, ' Walking Leaf is ', sixhbells, ' bells!')
+elseif bug == bugs['Walking Stick'] then
+	print(num1, ' Walking Stick is ', sixhbells, ' bells!')
+elseif bug == bugs['Wasp'] then
+	print(num1, ' Wasp is ', twotfivehbells, ' bells!')
+elseif bug == bugs['Warf Roach'] then
+	print(num1, ' Warf Roach is ', twohbells, ' bells!')
 
 -- No bugs that start with X
 -- Y
-
+elseif bug == bugs['Yellow Butterfly'] then
+	print(num1, ' Yellow Butterfly is ', onehsbells, ' bells!')
+end
 
 -- No bugs that start with Z
 
