@@ -8,14 +8,17 @@ asked questions to see how many bells you will get.
 # TODO
 ### Bugs
 [x] Have all bugs in table
+
 [x] Have all bugs accessable
 
 ### Fish
-[ ] Have all fish in table
+[x] Have all fish in table
+
 [ ] Have all fish accessable
 
 ### Other
 [ ] Add Nooklings Drop-Off pricing (0.8x multiplier)
+
 [ ] Add CJ/Flick pricing (1.5x pricing)
 
 # NOTE!!!
