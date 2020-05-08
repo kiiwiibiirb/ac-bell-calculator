@@ -454,6 +454,49 @@ end
 
 -- No bugs that start with Z
 
+
+-- Now basically redo lines 211-453 but for fish. Dear god...
+-- These names are pretty long, but they are more memorable as it's just the
+-- number in written form.
+local fish_one_hundred_bells = fishies(num1*100)							-- 100
+local fish_one_hundred_twenty_bells = fishies(num1*120)						-- 120
+local fish_one_hundred_fifty_bells = fishies(num1*150)						-- 150
+local fish_one_hundred_sixty_bells = fishies(num1*160)						-- 160
+local fish_one_hundred_eighty_bells = fishies(num1*180)						-- 180
+local fish_two_hundred_bells = fishies(num1*200)							-- 200
+local fish_two_hundred_fourty_bells = fishies(num1*240)						-- 240
+local fish_two_hundred_fifty_bells = fishies(num1*250)						-- 250
+local fish_three_hundred_bells = fishies(num1*300)							-- 300
+local fish_four_hundred_bells = fishies(num1*400)							-- 400
+local fish_five_hundred_bells = fishies(num1*500)							-- 500
+local fish_six_hundred_bells = fishies(num1*600)							-- 600
+local fish_six_hundred_fifty_bells = fishies(num1*650)						-- 650
+local fish_seven_hundred_bells = fishies(num1*700)							-- 700
+local fish_eight_hundred_bells = fishies(num1*800)							-- 800
+local fish_nine_hundred_bells = fishies(num1*900)							-- 900
+local fish_one_thousand_bells = fishies(num1*1000)							-- 1000
+local fish_one_thousand_one_hundred_bells = fishies(num1*1100)				-- 1100
+local fish_one_thousand_three_hundred_bells = fishies(num1*1300)			-- 1300
+local fish_one_thousand_five_hundred_bells = fishies(num1*1500)				-- 1500
+local fish_one_thousand_eight_hundred_bells = fishies(num1*1800)			-- 1800
+local fish_two_thousand_bells = fishies(num1*2000)							-- 2000
+local fish_two_thousand_five_hundred_bells = fishies(num1*2500)				-- 2500
+local fish_three_thousand_bells = fishies(num1*3000)						-- 3000
+local fish_three_thousand_seven_hundred_fifty_bells = fishies(num1*3750)	-- 3750
+local fish_three_thousand_eight_hundred_bells = fishies(num1*3800)			-- 3800
+local fish_four_thousand_bells = fishies(num1*4000)							-- 4000
+local fish_four_thousand_five_hundred_bells = fishies(num1*4500)			-- 4500
+local fish_five_thousand_bells = fishies(num1*5000)							-- 5000
+local fish_five_thousand_five_hundred_bells = fishies(num1*5500)			-- 5500
+local fish_six_thousand_bells = fishies(num1*6000)							-- 6000
+local fish_seven_thousand_bells = fishies(num1*7000)						-- 7000
+local fish_eight_thousand_bells = fishies(num1*8000)						-- 8000
+local fish_nine_thousand_bells = fishies(num1*9000)							-- 9000
+local fish_ten_thousand_bells = fishies(num1*10000)							-- 10000
+local fish_twelve_thousand_bells = fishies(num1*12000)						-- 12000
+local fish_thirteen_thousand_bells = fishies(num1*13000)					-- 13000
+local fish_fifteen_thousand_bells = fishies(num1*15000)						-- 15000
+
 print('Press ENTER to quit.')
 io.read()
 os.exit()
