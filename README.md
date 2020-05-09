@@ -18,7 +18,7 @@ You will need to install lua, then run one of the lua scripts based on what you 
 ### Other
 - [ ] Add Nooklings Drop-Off pricing (0.8x multiplier)
 
-- [ ] Add CJ/Flick pricing (1.5x pricing)
+- [x] Add CJ/Flick pricing (1.5x pricing)
 
 # NOTE!!!
 Typing in the bugs/fish are case sensitive! Each word has to begin with an
