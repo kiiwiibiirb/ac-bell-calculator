@@ -15,10 +15,14 @@ You will need to install lua, then run one of the lua scripts based on what you 
 
 - [x] Have all fish accessable
 
-### Other
-- [ ] Add Nooklings Drop-Off pricing (0.8x multiplier)
+### Pricing
+- [x] Add Nooklings Drop-Off pricing (0.8x multiplier)
 
 - [x] Add CJ/Flick pricing (1.5x pricing)
+
+### Other
+- [ ] Make it useable on a website.
+- [ ] Add other items and not just bugs and fish.
 
 # NOTE!!!
 Typing in the bugs/fish are case sensitive! Each word has to begin with an
