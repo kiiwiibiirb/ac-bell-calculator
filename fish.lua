@@ -183,7 +183,165 @@ elseif fishies == fish['Crawfish'] then
     print(num1, ' Crawfish is ', fish_two_hundred_bells, ' bells!')
 elseif fishies == fish['Crucian Carp'] then
     print(num1, ' Crucian Carp is ', fish_one_hundred_sixty_bells, ' bells!')
+
+-- D
+elseif fishies == fish['Dab'] then
+	print(num1, ' Dab is ', fish_three_hundred_bells, ' bells!')
+elseif fishies == fish['Dace'] then
+	print(num1, ' Dace is ', fish_two_hundred_fourty_bells, ' bells!')
+elseif fishies == fish['Dorado'] then
+	print(num1, ' Dorado is ' fish_fifteen_thousand_bells, ' bells!')
+
+-- There are no fish that start with E
+-- F
+elseif fishies == fish['Football Fish'] then
+	print(num1, ' Football Fish is ', fish_two_thousand_five_hundred_bells, ' bells!')
+elseif fishies == fish['Freshwater Goby'] then
+	print(num1, ' Freshwater Goby is ', fish_four_hundred_bells, ' bells!')
+elseif fishies == fish['Frog'] then
+	print(num1, ' Frog is ', fish_one_hundred_twenty_bells, ' bells!')
+
+-- G
+elseif fishies == fish['Gar'] then
+	print(num1, ' Gar is ', fish_six_thousand_bells, ' bells!')
+elseif fishies == fish['Giant Snakehead'] then
+	print(num1, ' Giant Snakehead is ', fish_five_thousand_five_hundred_bells, ' bells!')
+elseif fishies == fish['Giant Trevally'] then
+	print(num1, ' Giant Trevally is ', fish_four_thousand_five_hundred_bells, ' bells!')
+elseif fishies == fish['Golden Trout'] then
+	print(num1, ' Golden Trout is ', fish_fifteen_thousand_bells, ' bells!')
+elseif fishies == fish['Goldfish'] then
+	print(num1, ' Goldfish is ', fish_one_thousand_three_hundred_bells, ' bells!')
+elseif fishies == fish['Great White Shark'] then
+	print(num1, ' Great White Shark is ', fish_fifteen_thousand_bells, ' bells!')
+elseif fishies == fish['Guppy'] then
+	print(num1, ' Guppy is ', fish_one_thousand_three_hundred_bells, ' bells!')
+
+-- H
+elseif fishies == fish['Hammerhead Shark'] then
+	print(num1, ' Hammerhead Shark is ', fish_eight_thousand_bells, ' bells!')
+elseif fishies == fish['Horse Mackerel'] then
+	print(num1, ' Horse Mackerel is ', fish_one_hundred_fifty_bells, ' bells!')
+
+-- There are no fish that start with I
+-- There are no fish that start with J
+-- K
+elseif fishies == fish['Killifish'] then
+	print(num1, ' Killifish is ', fish_three_hundred_bells, ' bells!')
+elseif fishies == fish['King Salmon'] then
+	print(num1, ' King Salmon is ', fish_one_thousand_eight_hundred_bells, ' bells!')
+elseif fishies == fish['Koi'] then
+	print(num1, ' Koi is ', fish_four_thousand_bells, ' bells!')
+
+-- L
+elseif fishies == fish['Loach'] then
+	print(num1, ' Loach is ', fish_four_hundred_bells, ' bells!')
+
+-- M
+elseif fishies == fish['Mahi-Mahi'] then
+	print(num1, ' Mahi-Mahi is ', fish_six_thousand_bells, ' bells!')
+elseif fishies == fish['Mitten Crab'] then
+	print(num1, ' Mitten Crab is ', fish_two_thousand_bells, ' bells!')
+elseif fishies == fish['Moray Eel'] then
+	print(num1, ' Moray Eel is ', fish_two_thousand_bells, ' bells!')
+
+-- N
+elseif fishies == fish['Napoleonfish'] then
+	print(num1, ' Napoleonfish is ', fish_ten_thousand_bells, ' bells!')
+elseif fishies == fish['Neon Tetra'] then
+	print(num1, ' Neon Tetra is ', fish_five_hundred_bells, ' bells!')
+elseif fishies == fish['Nibble Fish'] then
+	print(num1, ' Nibble Fish is ', fish_one_thousand_five_hundred_bells, ' bells!')
+
+-- O
+elseif fishies == fish['Oarfish'] then
+	print(num1, ' Oarfish is ', fish_nine_thousand_bells, ' bells!')
+elseif fishies == fish['Ocean Sunfish'] then
+	print(num1, ' Ocean Sunfish is ', fish_four_thousand_bells, ' bells!')
+elseif fishies == fish['Olive Flounder'] then
+	print(num1, ' Olive Flounder is ', fish_eight_hundred_bells, ' bells!')
+
+-- P
+elseif fishies == fish['Pale Chub'] then
+	print(num1, ' Pale Chub is ', fish_two_hundred_bells, ' bells!')
+elseif fishies == fish['Pike'] then
+	print(num1, ' Pike is ', fish_one_thousand_eight_hundred_bells, ' bells!')
+elseif fishies == fish['Piranha'] then
+	print(num1, ' Piranha is ', fish_two_thousand_five_hundred_bells, ' bells!')
+elseif fishies == fish['Pond Smelt'] then
+	print(num1, ' Pond Smelt is ', fish_five_hundred_bells, ' bells!')
+elseif fishies == fish['Pop-Eyed Goldfish'] then
+	print(num1, ' Pop-Eyed Goldfish is ', fish_one_thousand_three_hundred_bells, ' bells!')
+elseif fishies == fish['Pufferfish'] then
+	print(num1, ' Pufferfish is ', fish_two_hundred_fifty_bells, ' bells!')
+
+-- There are no fish that start with Q
+-- R
+elseif fishies == fish['Rainbowfish'] then
+	print(num1, ' Rainbowfish is ', fish_eight_hundred_bells, ' bells!')
+elseif fishies == fish['Ranchu Goldfish'] then
+	print(num1, ' Ranchu Goldfish is ', fish_four_thousand_five_hundred_bells, ' bells!')
+elseif fishies == fish['Ray'] then
+	print(num1, ' Ray is ', fish_three_thousand_bells, ' bells!')
+elseif fishies == fish['Red Snapper'] then
+	print(num1, ' Red Snapper is ', fish_three_thousand_bells, ' bells!')
+elseif fishies == fish['Ribbon Eel'] then
+	print(num1, ' Ribbon Eel is ', fish_six_hundred_bells, ' bells!')
+
+-- S
+elseif fishies == fish['Saddled Bichir'] then
+	print(num1, ' Saddled Bichir is ', fish_four_thousand_bells, ' bells!')
+elseif fishies == fish['Salmon'] then
+	print(num1, ' Salmon is ', fish_seven_hundred_bells, ' bells!')
+elseif fishies == fish['Saw Shark'] then
+	print(num1, ' Saw Shark is ', fish_twelve_thousand_bells, ' bells!')
+elseif fishies == fish['Sea Bass'] then
+	print(num1, ' Sea Bass is ', fish_four_hundred_bells, ' bells!')
+elseif fishies == fish['Sea Butterfly'] then
+	print(num1, ' Sea Butterfly is ', fish_one_thousand_bells, ' bells!')
+elseif fishies == fish['Sea Horse'] then
+	print(num1, ' Sea Horse is ', fish_one_thousand_one_hundred_bells, ' bells!')
+elseif fishies == fish['Snapping Turtle'] then
+	print(num1, ' Snapping Turtle is ', fish_five_thousand_bells, ' bells!')
+elseif fishies == fish['Soft-Shelled Turtle'] then
+	print(num1, ' Soft-Shelled Turtle is ', fish_three_thousand_seven_hundred_fifty_bells, ' bells!')
+elseif fishies == fish['Squid'] then
+	print(num1, ' Squid is ', fish_five_hundred_bells, ' bells!')
+elseif fishies == fish['Stringfish'] then
+	print(num1, ' Stringfish is ', fish_fifteen_thousand_bells, ' bells!')
+elseif fishies == fish['Sturgeon'] then
+	print(num1, ' Sturgeon is ', fish_ten_thousand_bells, ' bells!')
+elseif fishies == fish['Suckerfish'] then
+	print(num1, ' Suckerfish is ', fish_one_thousand_five_hundred_bells, ' bells!')
+elseif fishies == fish['Surgeonfish'] then
+	print(num1, ' Surgeonfish is ', fish_one_thousand_bells, ' bells!')
+elseif fishies == fish['Sweetfish'] then
+	print(num1, ' Sweetfish is ', fish_nine_hundred_bells, ' bells!')
+
+-- T
+elseif fishies == fish['Tadpole'] then
+	print(num1, ' Tadpole is ', fish_one_hundred_bells, ' bells!')
+elseif fishies == fish['Tilapia'] then
+	print(num1, ' Tilapia is ', fish_eight_hundred_bells, ' bells!')
+elseif fishies == fish['Tuna'] then
+	print(num1, ' Tuna is ', fish_seven_thousand_bells, ' bells!')
+
+-- There are no fish that start with U
+-- There are no fish that start with V
+-- W
+elseif fishies == fish['Whale Shark'] then
+	print(num1, ' Whale Shark is ', fish_thirteen_thousand_bells, ' bells!')
+
+-- There are no fish that start with X
+-- Y
+elseif fishies == fish['Yellow Perch'] then
+	print(num1, ' Yellow Perch is ', fish_three_hundred_bells, ' bells!')
+
+-- Z
+elseif fishies == fish['Zebra Turkeyfish'] then
+	print(num1, ' Zebra Turkeyfish is ', fish_five_hundred_bells, ' bells!')
 end
+
 print('Press ENTER to quit.')
 io.read()
 os.exit()
