@@ -1,3 +1,6 @@
+# Important
+This was my first go at finishing something in a programming language, now that I've gotten the handle of it I will work on a better version of this, that will be much more user-friendly. Stay tuned for that :)
+
 # ac-bell-calculator
 This is a lua script that can help you determine how many bells you will get from selling bugs/fish
 
@@ -19,10 +22,6 @@ You will need to install lua, then run one of the lua scripts based on what you 
 - [x] Add Nooklings Drop-Off pricing (0.8x multiplier)
 
 - [x] Add CJ/Flick pricing (1.5x pricing)
-
-### Other
-- [ ] Make it useable on a website.
-- [ ] Add other items and not just bugs and fish.
 
 # NOTE!!!
 Typing in the bugs/fish are case sensitive! Each word has to begin with an
