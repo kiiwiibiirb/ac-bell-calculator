@@ -1,3 +1,8 @@
+--[[
+	Yes, I understand that I probably don't need to use so many if statements, when I figure out how to do that then I'll rewrite it all so it is much smaller, for now though ther will be 1000s of if statements in all of these scripts. Sorry about that :|
+--]]
+
+-- List of all fish in Animal Crossing New Horizons
 local fish={
     ['None'] = function(x) return x end, -- This is used if the user wants to sell bugs and not fish.
 	['Anchovy'] = function(x) return x end,
@@ -82,6 +87,7 @@ local fish={
 	['Zebra Turkeyfish'] = function(x) return x end
 }
 
+-- List of all bugs in Animal Crossing New Horizons
 local bugs={
     ['None'] = function(x) return x end, -- This is if the user wants to sell fish and not bugs.
 	['Agrias Butterfly'] = function(x) return x end,
@@ -166,6 +172,8 @@ local bugs={
 	['Yellow Butterfly'] = function(x) return x end
 }
 
+-- Asks if you are selling to Flick
+-- TODO: If selling fish != ask about Flick
 local flick={
 	['Yes'] = function(x) return x end,
 	['No'] = function(x) return x end
@@ -176,14 +184,13 @@ local cj={
 	['No'] = function(x) return x end
 }
 
+-- Asks if you are selling to the nookling's drop-off.
 local nook={
 	['Yes'] = function(x) return x end,
 	['No'] = function(x) return x end
 }
 
-print('Hello and welcome to AC Bell Calculator! You can calculate how many bells')
-print('You will earn buy selling a certain amount of bugs/fish!')
-print('Version 0.2')
+print('Hello and thank you for using Kiiwii\'s Animal Crossing Bell Calculator! ')
 print()
 print()
 
@@ -200,15 +207,17 @@ local fishies = fish[io.read()]
 print('What bug are you selling? Type \'None\' if you are selling fish.')
 local bug = bugs[io.read()]
 
--- Asks user if they are selling to CJ
+-- Asks user if they are selling to C.J.
+-- TODO: If user selling bugs != ask about C.J.
 print('Are you selling to CJ?')
 local bonusCj = cj[io.read()]
 
 -- Asks user if they are selling to Flick
+-- TODO: If user selling fish != ask about Flick
 print('Are you selling to Flick?')
 local bonusFlick = flick[io.read()]
 
--- Asks user if they are selling to Nooklings drop-off box.
+-- Asks user if they are selling to Nookling's drop-off box.
 print('Are you using the Nook Shop\'s drop-off box?')
 local dropOff = nook[io.read()]
 
